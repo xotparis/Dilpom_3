@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: edu.praktikum.diplom3.TransitionTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 20.365 s <<< FAILURE! - in edu.praktikum.diplom3.TransitionTests
+transitionToFillings(edu.praktikum.diplom3.TransitionTests)  Time elapsed: 2.79 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="text text_type_main-default">...</span> is not clickable at point (615, 215). Other element would receive the click: <div class="Modal_modal_overlay__x2ZCr"></div>
+  (Session info: chrome=127.0.6533.72)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77a16bd1b38599a4eff2ac094ca1713d, clickElement {id=f.A6A2DA1FFE70A90CEF09936CC6CDAB87.d.71D88F9685C2C3CFEE41AAFB7F11987C.e.62}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.72, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: /var/folders/j7/6fh1fpc9509...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60755/devtoo..., se:cdpVersion: 127.0.6533.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (77a16bd1b38599a4eff2ac094ca1713d)] -> xpath: //span[text()='Начинки']]
+Session ID: 77a16bd1b38599a4eff2ac094ca1713d
+	at edu.praktikum.diplom3.TransitionTests.transitionToFillings(TransitionTests.java:73)
+
+transitionToLogo(edu.praktikum.diplom3.TransitionTests)  Time elapsed: 3.466 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="AppHeader_header__link__3D_hX" href="/account">...</a> is not clickable at point (1271, 44). Other element would receive the click: <div class="Modal_modal_overlay__x2ZCr"></div>
+  (Session info: chrome=127.0.6533.72)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d7c705c961402b6478390455d16cb09, clickElement {id=f.61838189A04914E4358CE5AE7D4D072A.d.6F3E7C39A229B16DC12A7DE72DC5CB29.e.76}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.72, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: /var/folders/j7/6fh1fpc9509...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60777/devtoo..., se:cdpVersion: 127.0.6533.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (6d7c705c961402b6478390455d16cb09)] -> xpath: //a[@href='/account']]
+Session ID: 6d7c705c961402b6478390455d16cb09
+	at edu.praktikum.diplom3.TransitionTests.transitionToLogo(TransitionTests.java:55)
+

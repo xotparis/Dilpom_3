@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: edu.praktikum.diplom3.EnterAndExitTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 113.255 s <<< FAILURE! - in edu.praktikum.diplom3.EnterAndExitTests
+enterButtonPasswordRecoveryPage(edu.praktikum.diplom3.EnterAndExitTests)  Time elapsed: 14.945 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Логин']/following-sibling::input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.72, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: /var/folders/j7/6fh1fpc9509...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60671}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60671/devtoo..., se:cdpVersion: 127.0.6533.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e7636b83805aee796f6722e4ec2aee46
+	at edu.praktikum.diplom3.EnterAndExitTests.enterButtonPasswordRecoveryPage(EnterAndExitTests.java:118)
+
+exitButtonPersonalProfilePage(edu.praktikum.diplom3.EnterAndExitTests)  Time elapsed: 5.548 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button class="button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg">...</button> is not clickable at point (1243, 440). Other element would receive the click: <div class="Modal_modal_overlay__x2ZCr"></div>
+  (Session info: chrome=127.0.6533.72)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [609ebb5ba6079891ac30007076409f67, clickElement {id=f.A27225BA1C18559169ACF779E1F1A689.d.C326456AEEFB9EEDBD59B4C7A25DBCA0.e.7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.72, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: /var/folders/j7/6fh1fpc9509...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60696/devtoo..., se:cdpVersion: 127.0.6533.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (609ebb5ba6079891ac30007076409f67)] -> xpath: //button[text()='Войти в аккаунт']]
+Session ID: 609ebb5ba6079891ac30007076409f67
+	at edu.praktikum.diplom3.EnterAndExitTests.exitButtonPersonalProfilePage(EnterAndExitTests.java:125)
+

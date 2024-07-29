@@ -1,0 +1,10 @@
+edu/praktikum/diplom3/pages/ProfilePage.class
+edu/praktikum/diplom3/pages/MainPage.class
+edu/praktikum/diplom3/CONSTANTS/CONSTANTS.class
+edu/praktikum/diplom3/pages/ForgotPasswordPage.class
+edu/praktikum/diplom3/pages/User.class
+edu/praktikum/diplom3/api/UserApi.class
+edu/praktikum/diplom3/utils/TestDataGenerator.class
+edu/praktikum/diplom3/pages/LoginPage.class
+edu/praktikum/diplom3/pages/RegistrationPage.class
+edu/praktikum/diplom3/pages/BasePage.class
