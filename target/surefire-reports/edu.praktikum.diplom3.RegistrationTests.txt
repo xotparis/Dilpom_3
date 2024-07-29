@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: edu.praktikum.diplom3.RegistrationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.061 s <<< FAILURE! - in edu.praktikum.diplom3.RegistrationTests
+registrationWithCorrectData(edu.praktikum.diplom3.RegistrationTests)  Time elapsed: 2.862 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button class="button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg">...</button> is not clickable at point (1243, 440). Other element would receive the click: <div class="Modal_modal_overlay__x2ZCr"></div>
+  (Session info: chrome=127.0.6533.72)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1225099a089d797bb216dac3d22baf5b, clickElement {id=f.6DE591A9475CA5CB90CDFD201EDECA66.d.D0173008F4DBCE2FBF49CEEF1BB14752.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.72, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: /var/folders/j7/6fh1fpc9509...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60859/devtoo..., se:cdpVersion: 127.0.6533.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (1225099a089d797bb216dac3d22baf5b)] -> xpath: //button[text()='Войти в аккаунт']]
+Session ID: 1225099a089d797bb216dac3d22baf5b
+	at edu.praktikum.diplom3.RegistrationTests.registrationWithCorrectData(RegistrationTests.java:57)
+
